@@ -32,6 +32,36 @@ Response :
 
 #Veja que a cada chamada de API é debitado um token da sua carteira Metamask
 
+```mermaid
+sequenceDiagram
+    participant Usuário
+    participant Metamask
+    participant Contrato
+    participant API
+
+    Usuário->>Metamask: Obter Tokens de Teste
+    Metamask-->>Usuário: Tokens Adicionados
+
+    Usuário->>Contrato: Enviar Requisição POST com Parâmetros
+    activate Contrato
+    Contrato->>Metamask: Solicitar Aprovação de Transação
+    activate Metamask
+
+    Metamask-->>Usuário: Solicitação de Aprovação
+    Usuário->>Metamask: Aprovar Transação
+    Metamask-->>Contrato: Transação Aprovada
+    deactivate Metamask
+
+    Contrato->>API: Realizar Chamada de API
+    activate API
+    API-->>Contrato: Resposta da API
+    deactivate API
+
+    Contrato-->>Usuário: Retornar Resposta da API
+    deactivate Contrato
+
+```
+
 
 ## Funcionalidades
 
