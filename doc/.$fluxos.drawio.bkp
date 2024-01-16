@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2024-01-16T03:38:32.782Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.8.2 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="BzHkrS7HzQoP54_WgejZ" version="21.8.2" type="device">
+  <diagram name="Página-1" id="SAQOfUsxO4V3rcWWh54u">
+    <mxGraphModel dx="954" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-1" value="1 - Pegar Tokens de teste" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-2" value="2 - Autenticação Via Metamask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ3PWexT3leJ_EIXsQGy-3" target="KJ3PWexT3leJ_EIXsQGy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-3" value="3 - Executar uma Transação&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ3PWexT3leJ_EIXsQGy-4" target="KJ3PWexT3leJ_EIXsQGy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-4" value="Debito dos tokens do usuário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ3PWexT3leJ_EIXsQGy-6" target="KJ3PWexT3leJ_EIXsQGy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-6" value="Deposito dos tokens&amp;nbsp;&lt;br&gt;para&lt;br&gt;__ownerAdress__" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ3PWexT3leJ_EIXsQGy-8" target="KJ3PWexT3leJ_EIXsQGy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-8" value="Quais informações conseguimos coletar aqui ?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ3PWexT3leJ_EIXsQGy-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Taxa de utilização da plataforma:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;requiscoes_feitas vs tempo_médio_de_resposta&lt;br&gt;&lt;br&gt;* Custo de cada transação&amp;nbsp;&lt;br&gt;&lt;br&gt;* Taxa de serviço&amp;nbsp;&lt;br&gt;&lt;br&gt;* Quantidade de Chamadas com Erro&lt;br&gt;&lt;br&gt;* Quantidade de Chamadas com Sucesso&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;* Quantidade de tokens de teste distribuido&lt;br&gt;&lt;br&gt;*&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="245" y="730" width="290" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
